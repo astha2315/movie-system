@@ -1,5 +1,13 @@
 p, admin, /movies/add, POST
 p, admin, /movies/remove*, DELETE
 p, admin, /movies/update*, PUT
+p,admin,/movies/list,GET
+p,admin,/movies/genres/list,GET
+p,,/movies/genres/list,GET
 p,,/movies/list,GET
+p,admin,/movies/list/genre,GET
+p,,/movies/list/genre,GET
+
+
+
 
